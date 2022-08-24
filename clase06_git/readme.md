@@ -1,0 +1,1 @@
+Vimos el tema con los slides y en el proyector repasamos los pasos.

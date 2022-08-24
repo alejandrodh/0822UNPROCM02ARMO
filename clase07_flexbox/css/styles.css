@@ -1,0 +1,39 @@
+/* body {
+    background-color: red;
+} */
+
+.menu {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.menu li {
+    border: 1px solid red;
+    margin-right: 20px
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 3px solid blue;
+    margin-top: 20px;
+}
+
+main .content{
+    height: 150px;
+    width: 150px;
+}
+
+.first {
+    background-color: rgba(255,0,0,0.5);
+}
+.second {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.third {
+    background-color: rgba(0, 0, 255, 0.5);
+}
