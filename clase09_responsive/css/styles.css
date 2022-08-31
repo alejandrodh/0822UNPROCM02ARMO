@@ -1,0 +1,38 @@
+/* body{
+    background-color: red;
+} */
+
+h1{
+    background-color: #ccc;
+    border: 1px solid #444;
+}
+.mobile {
+    display: none;
+}
+
+
+@media (max-width:800px) {
+    h1 {
+        border: 4px solid blueviolet;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .mobile {
+            display: block;
+    }
+
+    .vertical {
+        display: none;
+    }
+
+    article {
+        background-color: pink;
+    }
+
+    article p {
+        font-size: 20px;
+    }
+}
