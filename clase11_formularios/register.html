@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <!-- Formulario con:
+            campo para el email
+            campo para contraseña
+            una sección para el género
+            una sección hobbies
+            un campo para la nacionalidad
+            un campo para comentarios 
+            un botón de reset y un botón de envío -->
+
+
+    <form action="./bienvenido.html" method="GET">
+        <div>
+            <input type="email" name="email" value="" placeholder="email" required>
+        </div>
+        <div>
+            <input type="password" name="pass" value="" placeholder="contraseña" required>
+        </div>
+        <h2>Género</h2>
+        <input type="radio" name="gender" value="m"><label for="">Masculino</label>
+        <input type="radio" name="gender" value="f"><label for="">Femenino</label>
+        <input type="radio" name="gender" value="n/a"><label for="">Prefiero no decirlo</label>
+
+        <h2>Hobbies</h2>
+        <input type="checkbox" name="hobbies" value="futbol" checked><label for="">Fútbol</label>
+        <input type="checkbox" name="hobbies" value="tenis"><label for="">Tenis</label>
+        <input type="checkbox" name="hobbies" value="programar"><label for="">Programar</label>
+
+        <h2>Nacionalidad</h2>
+        <select name="nacionalidad" id="">
+            <option value="">Por favor elija uno</option>
+            <option value="ar">Argentina</option>
+            <option value="ch">Chile</option>
+            <option value="co">Colombia</option>
+            <option value="uy">Uruguay</option>
+        </select>
+
+        <h2>Comentarios</h2>
+        <textarea name="comentario" id="" cols="30" rows="10" value=""></textarea>
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
