@@ -1,0 +1,1 @@
+Dedicamos la clase a repaso de temas y a trabajar en el proyecto integrador.

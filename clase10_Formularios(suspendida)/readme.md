@@ -1,0 +1,1 @@
+La clase de hoy se suspendió por feriado nacional. El tema se dio en la clase 11.
