@@ -18,7 +18,9 @@ fetch(url)
             //Dentro del for voy acumulando en la variable una estructura html por cada personaje del array.
             allCharacters += `<article>
                                 <img src=${arrayDePersonajes[i].image} alt='${arrayDePersonajes[i].name}' />
-                                <p> Name: ${arrayDePersonajes[i].name} </p>
+                                <p> 
+                                    <a href='detalle.html?id=${arrayDePersonajes[i].id}'> Name: ${arrayDePersonajes[i].name} </a>
+                                 </p>
                                 <p>Status: ${arrayDePersonajes[i].status} </p>
                             </article>`
         }
