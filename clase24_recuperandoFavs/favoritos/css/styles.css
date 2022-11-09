@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container article {
+    width: 22%;
+}
+
+article img {
+    width: 100%;
+}
